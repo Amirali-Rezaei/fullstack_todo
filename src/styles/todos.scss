@@ -1,0 +1,44 @@
+.todos {
+	width: 100%;
+	max-width: 736px;
+	margin: 0 auto;
+	margin-top: 90px;
+	padding: 0 1rem;
+}
+
+.textPurple {
+	color: #8284fa !important;
+}
+
+.todo-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24px;
+
+	& > div {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	p {
+		color: #4ea8de;
+		font-size: 16px;
+	}
+
+	span {
+		background: #333333;
+		color: #d9d9d9;
+		padding: 3px 9px;
+		border-radius: 999px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
